@@ -9,7 +9,7 @@
 		{
 			"type": "plugin",
 			"id": "Keyboard",
-			"name": "Keyboard",
+			"name": "Clavier",
 			"author": "Scirra",
 			"bundled": false
 		},
@@ -23,49 +23,49 @@
 		{
 			"type": "plugin",
 			"id": "TiledBg",
-			"name": "Tiled Background",
+			"name": "Arrière-plan Répété",
 			"author": "Scirra",
 			"bundled": false
 		},
 		{
 			"type": "behavior",
 			"id": "Anchor",
-			"name": "Anchor",
+			"name": "Ancre",
 			"author": "Scirra",
 			"bundled": false
 		},
 		{
 			"type": "behavior",
 			"id": "Platform",
-			"name": "Platform",
+			"name": "Plate-forme",
 			"author": "Scirra",
 			"bundled": false
 		},
 		{
 			"type": "behavior",
 			"id": "bound",
-			"name": "Bound to layout",
+			"name": "Limité à la scène",
 			"author": "Scirra",
 			"bundled": false
 		},
 		{
 			"type": "behavior",
 			"id": "scrollto",
-			"name": "Scroll To",
+			"name": "Défiler vers",
 			"author": "Scirra",
 			"bundled": false
 		},
 		{
 			"type": "behavior",
 			"id": "solid",
-			"name": "Solid",
+			"name": "Solide",
 			"author": "Scirra",
 			"bundled": false
 		},
 		{
 			"type": "behavior",
 			"id": "wrap",
-			"name": "Wrap",
+			"name": "Enrouler",
 			"author": "Scirra",
 			"bundled": false
 		}
@@ -94,7 +94,11 @@
 			"DeathBloc2",
 			"DeathBloc3",
 			"heart",
-			"backroundNight"
+			"backroundNight",
+			"InvisibleBloc1",
+			"InvisibleBloc2",
+			"InvisibleBloc3",
+			"InvisibleBloc4"
 		],
 		"subfolders": []
 	},

@@ -40,12 +40,12 @@
 						"expanded": true
 					},
 					"showing": true,
-					"locked": true,
+					"locked": false,
 					"world": {
-						"x": -30,
-						"y": -30,
-						"width": 1097.8000000000002,
-						"height": 546.6999999999999,
+						"x": -32,
+						"y": -32,
+						"width": 1056,
+						"height": 544,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -105,7 +105,7 @@
 					"locked": false,
 					"world": {
 						"x": 32,
-						"y": 352,
+						"y": 416,
 						"width": 80,
 						"height": 80,
 						"originX": 0.5,
@@ -160,7 +160,7 @@
 					"locked": false,
 					"world": {
 						"x": 0,
-						"y": 384,
+						"y": 448,
 						"width": 1504,
 						"height": 32,
 						"originX": 0,
@@ -215,7 +215,7 @@
 					"locked": false,
 					"world": {
 						"x": 192,
-						"y": 512,
+						"y": 576,
 						"width": 1536,
 						"height": 32,
 						"originX": 0,
@@ -270,7 +270,7 @@
 					"locked": false,
 					"world": {
 						"x": 0,
-						"y": 640,
+						"y": 768,
 						"width": 544,
 						"height": 32,
 						"originX": 0,
@@ -380,9 +380,9 @@
 					"locked": false,
 					"world": {
 						"x": 1696,
-						"y": 544,
+						"y": 480,
 						"width": 32,
-						"height": 384,
+						"height": 448,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -435,9 +435,9 @@
 					"locked": false,
 					"world": {
 						"x": 0,
-						"y": 672,
+						"y": 800,
 						"width": 32,
-						"height": 256,
+						"height": 128,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -495,6 +495,226 @@
 						"y": 10,
 						"width": 192,
 						"height": 64,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "InvisibleBloc1",
+					"properties": {
+						"initially-visible": true,
+						"origin": "top-left",
+						"wrap-horizontal": "repeat",
+						"wrap-vertical": "repeat",
+						"image-offset-x": 0,
+						"image-offset-y": 0,
+						"image-scale-x": 1,
+						"image-scale-y": 1,
+						"image-angle": 0,
+						"enable-tile-randomization": false,
+						"x-random": 1,
+						"y-random": 1,
+						"angle-random": 1,
+						"blend-margin-x": 0.1,
+						"blend-margin-y": 0.1
+					},
+					"uid": 12,
+					"sid": 398462970149858,
+					"tags": "",
+					"instanceVariables": {},
+					"behaviors": {
+						"Solide": {
+							"properties": {
+								"enabled": true,
+								"use-instance-tags": true,
+								"tags": ""
+							}
+						}
+					},
+					"instanceFolderItem": {
+						"sid": 398462970149858,
+						"expanded": true
+					},
+					"showing": true,
+					"locked": false,
+					"world": {
+						"x": -32,
+						"y": 384,
+						"width": 32,
+						"height": 384,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "InvisibleBloc2",
+					"properties": {
+						"initially-visible": true,
+						"origin": "top-left",
+						"wrap-horizontal": "repeat",
+						"wrap-vertical": "repeat",
+						"image-offset-x": 0,
+						"image-offset-y": 0,
+						"image-scale-x": 1,
+						"image-scale-y": 1,
+						"image-angle": 0,
+						"enable-tile-randomization": false,
+						"x-random": 1,
+						"y-random": 1,
+						"angle-random": 1,
+						"blend-margin-x": 0.1,
+						"blend-margin-y": 0.1
+					},
+					"uid": 13,
+					"sid": 510755004817550,
+					"tags": "",
+					"instanceVariables": {},
+					"behaviors": {
+						"Solide": {
+							"properties": {
+								"enabled": true,
+								"use-instance-tags": true,
+								"tags": ""
+							}
+						}
+					},
+					"instanceFolderItem": {
+						"sid": 510755004817550,
+						"expanded": true
+					},
+					"showing": true,
+					"locked": false,
+					"world": {
+						"x": 1728,
+						"y": 0,
+						"width": 32,
+						"height": 448,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "InvisibleBloc3",
+					"properties": {
+						"initially-visible": true,
+						"origin": "top-left",
+						"wrap-horizontal": "repeat",
+						"wrap-vertical": "repeat",
+						"image-offset-x": 0,
+						"image-offset-y": 0,
+						"image-scale-x": 1,
+						"image-scale-y": 1,
+						"image-angle": 0,
+						"enable-tile-randomization": false,
+						"x-random": 1,
+						"y-random": 1,
+						"angle-random": 1,
+						"blend-margin-x": 0.1,
+						"blend-margin-y": 0.1
+					},
+					"uid": 14,
+					"sid": 422120762242147,
+					"tags": "",
+					"instanceVariables": {},
+					"behaviors": {
+						"Solide": {
+							"properties": {
+								"enabled": true,
+								"use-instance-tags": true,
+								"tags": ""
+							}
+						}
+					},
+					"instanceFolderItem": {
+						"sid": 422120762242147,
+						"expanded": true
+					},
+					"showing": true,
+					"locked": false,
+					"world": {
+						"x": -32,
+						"y": 0,
+						"width": 32,
+						"height": 384,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "InvisibleBloc4",
+					"properties": {
+						"initially-visible": true,
+						"origin": "top-left",
+						"wrap-horizontal": "repeat",
+						"wrap-vertical": "repeat",
+						"image-offset-x": 0,
+						"image-offset-y": 0,
+						"image-scale-x": 1,
+						"image-scale-y": 1,
+						"image-angle": 0,
+						"enable-tile-randomization": false,
+						"x-random": 1,
+						"y-random": 1,
+						"angle-random": 1,
+						"blend-margin-x": 0.1,
+						"blend-margin-y": 0.1
+					},
+					"uid": 15,
+					"sid": 288683565945680,
+					"tags": "",
+					"instanceVariables": {},
+					"behaviors": {
+						"Solide": {
+							"properties": {
+								"enabled": true,
+								"use-instance-tags": true,
+								"tags": ""
+							}
+						}
+					},
+					"instanceFolderItem": {
+						"sid": 288683565945680,
+						"expanded": true
+					},
+					"showing": true,
+					"locked": false,
+					"world": {
+						"x": 0,
+						"y": -32,
+						"width": 1728,
+						"height": 32,
 						"originX": 0,
 						"originY": 0,
 						"color": [

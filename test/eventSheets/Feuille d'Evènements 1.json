@@ -5,6 +5,75 @@
 			"eventType": "block",
 			"conditions": [
 				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 908191654021094
+				}
+			],
+			"actions": [
+				{
+					"id": "set-opacity",
+					"objectClass": "DeathBloc1",
+					"sid": 308303500351185,
+					"parameters": {
+						"opacity": "0"
+					}
+				},
+				{
+					"id": "set-opacity",
+					"objectClass": "DeathBloc2",
+					"sid": 697654105299991,
+					"parameters": {
+						"opacity": "0"
+					}
+				},
+				{
+					"id": "set-opacity",
+					"objectClass": "DeathBloc3",
+					"sid": 286184613713860,
+					"parameters": {
+						"opacity": "0"
+					}
+				},
+				{
+					"id": "set-opacity",
+					"objectClass": "InvisibleBloc1",
+					"sid": 788575387275878,
+					"parameters": {
+						"opacity": "0"
+					}
+				},
+				{
+					"id": "set-opacity",
+					"objectClass": "InvisibleBloc2",
+					"sid": 259555910686648,
+					"parameters": {
+						"opacity": "0"
+					}
+				},
+				{
+					"id": "set-opacity",
+					"objectClass": "InvisibleBloc3",
+					"sid": 918858835675875,
+					"parameters": {
+						"opacity": "0"
+					}
+				},
+				{
+					"id": "set-opacity",
+					"objectClass": "InvisibleBloc4",
+					"sid": 294889667336863,
+					"parameters": {
+						"opacity": "0"
+					}
+				}
+			],
+			"sid": 469939449072108
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
 					"id": "on-any-animation-finished",
 					"objectClass": "Joueur",
 					"sid": 156580776039785
@@ -21,6 +90,21 @@
 				}
 			],
 			"sid": 163203909250628
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Clavier",
+					"sid": 108938184518236,
+					"parameters": {
+						"key": 88
+					}
+				}
+			],
+			"actions": [],
+			"sid": 962127009150940
 		},
 		{
 			"eventType": "block",
@@ -128,10 +212,10 @@
 				{
 					"id": "set-position",
 					"objectClass": "Joueur",
-					"sid": 617340119138531,
+					"sid": 884364385290806,
 					"parameters": {
 						"x": "32",
-						"y": "352"
+						"y": "416"
 					}
 				}
 			],
@@ -170,10 +254,10 @@
 				{
 					"id": "set-position",
 					"objectClass": "Joueur",
-					"sid": 505999195313870,
+					"sid": 660488855635772,
 					"parameters": {
 						"x": "32",
-						"y": "352"
+						"y": "416"
 					}
 				}
 			],
@@ -212,10 +296,10 @@
 				{
 					"id": "set-position",
 					"objectClass": "Joueur",
-					"sid": 987226392596892,
+					"sid": 975080446526865,
 					"parameters": {
 						"x": "32",
-						"y": "352"
+						"y": "416"
 					}
 				}
 			],
