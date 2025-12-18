@@ -1,0 +1,226 @@
+{
+	"name": "Feuille d'Evènements 1",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-any-animation-finished",
+					"objectClass": "Joueur",
+					"sid": 156580776039785
+				}
+			],
+			"actions": [
+				{
+					"id": "start-animation",
+					"objectClass": "Joueur",
+					"sid": 170123230212064,
+					"parameters": {
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 163203909250628
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Clavier",
+					"sid": 344390449009957,
+					"parameters": {
+						"key": 39
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-mirrored",
+					"objectClass": "Joueur",
+					"sid": 512789716393923,
+					"parameters": {
+						"state": "not-mirrored"
+					}
+				}
+			],
+			"sid": 173735877901940
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Clavier",
+					"sid": 670647363905192,
+					"parameters": {
+						"key": 37
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-mirrored",
+					"objectClass": "Joueur",
+					"sid": 403468439936433,
+					"parameters": {
+						"state": "mirrored"
+					}
+				}
+			],
+			"sid": 128642108521077
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Clavier",
+					"sid": 521971868174572,
+					"parameters": {
+						"key": 32
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "simulate-control",
+					"objectClass": "Joueur",
+					"sid": 915456805823025,
+					"behaviorType": "Plateforme",
+					"parameters": {
+						"control": "jump"
+					}
+				}
+			],
+			"sid": 585323433035651
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Joueur",
+					"sid": 841975723366169,
+					"parameters": {
+						"object": "DeathBloc1"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "shake",
+					"objectClass": "Joueur",
+					"sid": 364357901627789,
+					"behaviorType": "DéfilerVers",
+					"parameters": {
+						"magnitude": "20",
+						"duration": "0.4",
+						"mode": "reducing-magnitude"
+					}
+				},
+				{
+					"id": "fall-through",
+					"objectClass": "Joueur",
+					"sid": 853769987621342,
+					"behaviorType": "Plateforme"
+				},
+				{
+					"id": "set-position",
+					"objectClass": "Joueur",
+					"sid": 617340119138531,
+					"parameters": {
+						"x": "32",
+						"y": "352"
+					}
+				}
+			],
+			"sid": 630410609852643
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Joueur",
+					"sid": 443087243296442,
+					"parameters": {
+						"object": "DeathBloc2"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "shake",
+					"objectClass": "Joueur",
+					"sid": 221419387856378,
+					"behaviorType": "DéfilerVers",
+					"parameters": {
+						"magnitude": "20",
+						"duration": "0.4",
+						"mode": "reducing-magnitude"
+					}
+				},
+				{
+					"id": "fall-through",
+					"objectClass": "Joueur",
+					"sid": 550079402285816,
+					"behaviorType": "Plateforme"
+				},
+				{
+					"id": "set-position",
+					"objectClass": "Joueur",
+					"sid": 505999195313870,
+					"parameters": {
+						"x": "32",
+						"y": "352"
+					}
+				}
+			],
+			"sid": 581556017721472
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Joueur",
+					"sid": 999919708039134,
+					"parameters": {
+						"object": "DeathBloc3"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "shake",
+					"objectClass": "Joueur",
+					"sid": 545047438349571,
+					"behaviorType": "DéfilerVers",
+					"parameters": {
+						"magnitude": "20",
+						"duration": "0.4",
+						"mode": "reducing-magnitude"
+					}
+				},
+				{
+					"id": "fall-through",
+					"objectClass": "Joueur",
+					"sid": 731869093850926,
+					"behaviorType": "Plateforme"
+				},
+				{
+					"id": "set-position",
+					"objectClass": "Joueur",
+					"sid": 987226392596892,
+					"parameters": {
+						"x": "32",
+						"y": "352"
+					}
+				}
+			],
+			"sid": 104466394626035
+		}
+	],
+	"sid": 222771437845269
+}

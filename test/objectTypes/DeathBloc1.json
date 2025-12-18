@@ -1,0 +1,29 @@
+{
+	"name": "DeathBloc1",
+	"plugin-id": "TiledBg",
+	"sid": 517185339401911,
+	"isGlobal": false,
+	"editorNewInstanceIsReplica": true,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "solid",
+			"name": "Solide",
+			"sid": 536688237117291
+		}
+	],
+	"effectTypes": [],
+	"image": {
+		"width": 32,
+		"height": 32,
+		"originX": 0.5,
+		"originY": 0.5,
+		"originalSource": "",
+		"exportFormat": "lossless",
+		"exportQuality": 0.8,
+		"fileType": "image/png",
+		"imageSpriteId": 4368091,
+		"useCollisionPoly": true,
+		"tag": ""
+	}
+}
